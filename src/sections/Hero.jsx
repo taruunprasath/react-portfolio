@@ -115,7 +115,7 @@ const Hero = () => {
           </motion.div>
         </div>
         <motion.div
-          className="absolute top-40 right-0 hidden md:flex flex-col gap-6 p-4 items-center justify-center rounded-full hover:scale-105 transition-transform duration-300 animate-fadeInUp"
+          className="flex gap-4 justify-center md:justify-between items-center px-6 mt-4 md:mt-0 md:absolute md:top-40 md:right-0 md:flex-col"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -127,6 +127,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
+            className="flex justify-center items-center"
           >
             <FaFacebook className="text-white text-4xl cursor-pointer hover:text-blue-500 transition duration-300 transform hover:scale-125 hover:rotate-12" />
           </motion.a>
@@ -136,6 +137,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
+            className="flex justify-center items-center"
           >
             <FaInstagram className="text-white text-4xl cursor-pointer hover:text-pink-500 transition duration-300 transform hover:scale-125 hover:rotate-12" />
           </motion.a>
@@ -145,6 +147,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
+            className="flex justify-center items-center"
           >
             <FaXTwitter className="text-white text-4xl cursor-pointer hover:text-neutral-200 transition duration-300 transform hover:scale-125 hover:rotate-12" />
           </motion.a>
@@ -154,6 +157,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
+            className="flex justify-center items-center"
           >
             <FaLinkedin className="text-white text-4xl cursor-pointer hover:text-blue-700 transition duration-300 transform hover:scale-125 hover:rotate-12" />
           </motion.a>
