@@ -95,8 +95,9 @@ const Hero = () => {
             <img
               src={hero}
               alt="Hero"
-              className="lg:h-[90vh] h-96 object-cover rounded-md"
+              className="lg:h-[70vh] h-64 object-cover rounded-md transform hover:scale-105 transition-transform duration-300"
             />
+
             <img
               src={reactLogo}
               alt="React Logo"
