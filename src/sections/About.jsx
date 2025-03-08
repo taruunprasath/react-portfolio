@@ -114,7 +114,7 @@ const About = () => {
                   animate={{ scale: 1, opacity: inView ? 1 : 0 }}
                   transition={{ delay: 0.6, duration: 0.5 }}
                 >
-                  <p className="text-2xl font-semibold">CGPA: 8.13</p>
+                  <p className="text-2xl font-semibold">CGPA: 8.37</p>
                 </motion.div>
               </div>
             </motion.div>
